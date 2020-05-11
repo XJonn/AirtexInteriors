@@ -1,0 +1,114 @@
+main{
+	margin: auto;
+	max-width: 800px;
+	background-color: #8c4040;
+	color: #ebebeb;
+}
+
+header h1, header p{
+	text-align: center;
+	color: #ebebeb;
+	margin: 0px;
+}
+
+header p{
+	padding-bottom: 10px;
+	font-family: 'Abel', sans-serif;
+	font-size: 20px;
+}
+
+h1{
+	padding: 15px 0px;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 40px;
+}
+
+header{
+	background-color: #921E1E;
+	max-width: 800px;
+	margin: 0px auto;
+}
+
+.menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.menu a{
+	padding: 0px 15px;
+	border: 2px #313131 solid;
+	background-color: #B00000;
+	text-decoration: none;
+}
+
+.menu a:link{
+	color: white;
+}
+
+.menu a:visited{
+	color: white;
+}
+
+.menu a:active{
+	background-color: #731818;
+	color: #C9C9C9;
+}
+
+.img-welcome{
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.welcome{
+	margin: 5px 15px;
+}
+
+.wrapper{
+	padding-top: 30px;
+	display: grid;
+	grid-template-columns: 180px 180px;
+	grid-template-rows: 200px 200px;
+}
+
+.video{
+	display: flex;
+	flex-direction: row-reverse;
+	padding: 25px 0;
+}
+
+.video-caption, .video-player{
+	margin: 0px 15px;
+}
+
+iframe{
+	max-width: 300px;
+	max-height: 200px;
+}
+
+.logo{
+	position: relative;
+	left: 50px;
+	bottom: 100px;
+}
+
+.logo img{
+	border: 5px solid #921E1E;
+}
+
+footer{
+	background-color: #921E1E;
+	max-width: 800px;
+	max-height: 30px;
+	margin: 0px auto;
+	padding: 1px 0;
+	padding-bottom: 30px;
+}
+
+h3{
+	padding-bottom: 10px;
+	font-family: 'Abel', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
